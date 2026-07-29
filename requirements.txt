@@ -1,0 +1,29 @@
+# =====================================================
+# TN Government Scheme RAG Assistant
+# Install with:  pip install -r requirements.txt
+# =====================================================
+
+# Web framework
+flask==3.0.3
+flask-cors==4.0.1
+
+# Database
+mysql-connector-python==8.4.0
+
+# Password hashing
+bcrypt==4.2.0
+
+# RAG / Embeddings
+sentence-transformers==3.0.1
+scikit-learn==1.5.1
+numpy==1.26.4
+
+# Data
+pandas==2.2.2
+
+# HTTP (Ollama calls)
+requests==2.32.3
+
+# Utilities
+python-dotenv==1.0.1
+werkzeug==3.0.3
